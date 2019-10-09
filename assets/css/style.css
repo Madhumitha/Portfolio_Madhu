@@ -3,6 +3,12 @@ html {
 
 }
 
+.page-container {
+    position: relative;
+    min-height: 100vh;
+    overflow: auto;
+}
+
 /* Header Section */
 
 .header {
@@ -66,7 +72,7 @@ padding: auto;
     margin: 0 auto;
     
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 2.5 rem;
     padding-right: 10px;
     padding-left: 10px;
     
@@ -74,22 +80,24 @@ padding: auto;
 
 /* Footer section */
 
-footer {
+.footer {
 
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 2.5rem;
     background-color: gray;
+    border-top: 3px solid #4aaaa5;
 
 }
 
-footer p {
+.footer p {
     text-align: center;
     color: white;
    
 }
 
-/* contact form */
+/* Contact form */
 
 
 
@@ -124,7 +132,7 @@ input[type=submit]:hover {
     
 }
 
-.Contact{
+#Contact {
     border-radius: 5px;
     padding: 20px;
     background-color: #f2f2f2;
@@ -132,6 +140,49 @@ input[type=submit]:hover {
 
     margin: 0 auto;
     width: 960px;
+}
+
+/* Portfolio pages */
+
+#Portfolio {
+
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 960px;
+
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.container_img  img{
+    display: block;
+    float:left;
+    margin: 0 auto;
+    padding: 20px;
+    width: 230px;
+    height: 230px;
     
+}
+
+.container_img #Books{
+    clear:left;
+}
+
+.container_img #Kernel{
+    clear: left;
+}
+
+.text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+
+.text-wrapper h2{
+    text-align: center;
+    color: black;
+    font-size: 10vw;
+    font-family: 'Times New Roman', Times, serif;
 
 }
