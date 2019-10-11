@@ -12,7 +12,6 @@ body {
 }
 
 .header {
-    z-index: 1;
     background: #ffffff;
     width: 100%;
     
@@ -75,8 +74,10 @@ li {
     background-color: #ffffff;
     width: 920px;
     margin: 0 auto;
+    position: relative;
 
     margin-top: 120px;
+    margin-bottom: 50px;
     
     border-style: solid;
     border-color: #dddddd;
@@ -85,6 +86,7 @@ li {
 
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 .heading {
@@ -175,6 +177,7 @@ input[type=submit]:hover {
     margin: 0 auto;
     width: 960px;
     margin-top: 120px;
+    margin-bottom: 50px;
 }
 
 #con_head {
